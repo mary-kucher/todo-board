@@ -19,7 +19,6 @@ npm run dev
 
 ## Tech Stack
 
-- TypeScript
 - Express.js
 - MongoDB(mongoose)
 - TypeScript
