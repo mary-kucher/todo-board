@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 36px;
+  min-height: 120px;
+  background: #D3C0CD;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  color: #BD4F6C;
+}
+
+.inputWrapper {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+.inputField {
+  width: 100%;
+  min-width: max-content;
+}
+
+.topContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nameWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.boardName {
+  font-size: 24px;
+  font-weight: bold;
+}

@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  gap: 18px;
+  flex-direction: column;
+  width: 100%;
+  padding: 36px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.titleOfModal {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.inputModalField {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  gap: 18px;
+  flex-direction: column;
+  width: 100%;
+  padding: 36px;
+}
+
+.id {
+  font-size: 16px;
+  font-weight: 800;
+  color: #BD4F6C;
+}
+
+.error {
+  color: #BD4F6C;
+}
+
+

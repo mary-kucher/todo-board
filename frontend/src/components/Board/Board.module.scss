@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  height: 100%;
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.addTaskBtn {
+  width: 90%;
+  height: 50px;
+}
