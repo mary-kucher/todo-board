@@ -1,5 +1,5 @@
 import React from 'react';
-import Icons from '../../../public/sprite.svg';
+import Icons from '/sprite.svg';
 import styles from './Icon.module.scss';
 
 type Props = {
@@ -9,7 +9,7 @@ type Props = {
 export const Icon: React.FC<Props> = ({id}) => {
   return (
     <svg className={styles.icon}>
-      <use href={`${Icons}#icon-${id}`}/>
+      <use xlinkHref={`${Icons}#icon-${id}`}/>
     </svg>
   );
 };

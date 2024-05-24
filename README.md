@@ -17,8 +17,11 @@ npm install
 npm run dev
 ```
 
-## Frontend Tech Stack
+## Tech Stack
 
+- TypeScript
+- Express.js
+- MongoDB(mongoose)
 - TypeScript
 - JavaScript
 - React
